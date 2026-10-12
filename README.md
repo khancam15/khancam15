@@ -34,4 +34,4 @@ I work in IT service management at Columbia University and build AI workflows wi
 
 ### Connect
 
-[khaneilcampbell.com](https://khaneilcampbell.com) · [LinkedIn](https://www.linkedin.com/in/khaneil-campbell)
+[khaneilcampbell.com](https://khaneilcampbell.com) · [LinkedIn](https://www.linkedin.com/in/khaneil-c-44179a14a)
