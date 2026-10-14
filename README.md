@@ -1,13 +1,15 @@
 ## Hi, I'm Khaneil Campbell
 
-I work in IT service management at Columbia University and build AI workflows with Claude, the Model Context Protocol (MCP), and Python. My focus is practical, responsible AI adoption: tools that solve real problems, are secure by default, and are documented well enough for someone else to run them.
+**Designing systems. Engineering what's next.**
+
+I work in enterprise IT at Columbia University and build AI solutions and automation with Claude, the Model Context Protocol (MCP), and Python. My focus is practical, responsible AI adoption: systems that solve real problems, are secure by default, and are documented well enough for someone else to run them.
 
 ### Featured projects
 
 | Project | What it shows |
 |---|---|
 | [**Multi-Agent Commerce Pipeline**](https://github.com/khancam15/multi-agent-commerce-pipeline) | CrewAI agents on Claude that plan products, create designs through Canva's MCP server, and publish to Shopify from a Linux VPS, with secret scanning and dependency audits in CI |
-| [**AI-Assisted Portfolio Website**](https://github.com/khancam15/khaneilcampbell.com) | A static site built with Claude, deployed on GitHub Pages with Cloudflare DNS, and checked by automated security and accessibility audits |
+| [**khaneilcampbell.com**](https://github.com/khancam15/khaneilcampbell.com) | My portfolio, planned and built with Claude: a documented plan with verified content, an architectural "Mist and glass" design, one first-party script under a strict CSP, and security and accessibility audits on every pull request |
 | [**SOC Automation and Detection Engineering Lab**](https://github.com/khancam15/soc-automation-splunk-bruteforce-lab) | An SMB brute-force simulation detected with Splunk SPL, with triage case notes automated in Python through the Splunk REST API |
 
 ### Tools and technologies
@@ -34,4 +36,4 @@ I work in IT service management at Columbia University and build AI workflows wi
 
 ### Connect
 
-[khaneilcampbell.com](https://khaneilcampbell.com) · [LinkedIn](https://www.linkedin.com/in/khaneil-c-44179a14a)
+[khaneilcampbell.com](https://khaneilcampbell.com) · [LinkedIn](https://www.linkedin.com/in/khaneil-campbell) · contact@khaneilcampbell.com
