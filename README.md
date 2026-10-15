@@ -2,7 +2,20 @@
 
 **Designing systems. Engineering what's next.**
 
-I work in enterprise IT at Columbia University and build AI solutions and automation with Claude, the Model Context Protocol (MCP), and Python. My focus is practical, responsible AI adoption: systems that solve real problems, are secure by default, and are documented well enough for someone else to run them.
+I work in enterprise IT at Columbia University and I'm the founder of [Benjaire](https://benjaire.com), a technology and brand development company in New York. I build AI solutions and automation with Claude, the Model Context Protocol (MCP), and Python. My focus is practical, responsible AI adoption: systems that solve real problems, are secure by default, and are documented well enough for someone else to run them.
+
+### Flagship business: Benjaire
+
+[**Benjaire**](https://benjaire.com) is where my work in AI, automation and systems design becomes a business. Founded in New York in 2022, it is one company with two pillars:
+
+| Pillar | Focus | Status |
+|---|---|---|
+| **Digital Solutions** | Business automation, AI integration and workflow optimization for small professional services firms. The first example is a client intake and onboarding solution. | Business development and service validation |
+| **Consumer Brands** | Consumer technology, tech accessories, lifestyle and ecommerce | Research and development |
+
+Benjaire follows the same process as the rest of my work: build lean, validate demand before expanding, and systematize operations so they can be repeated. Its website ([source](https://github.com/khancam15/benjaire.com)) is an Astro site on Cloudflare Workers, with a contact Worker protected by Turnstile, a strict Content Security Policy generated at build time, and type, link, SEO and WCAG 2.2 AA accessibility checks on every pull request.
+
+**Running a professional services firm that loses hours to manual intake, follow ups or admin?** [Start a conversation with Benjaire](https://benjaire.com/contact) or email contact@benjaire.com.
 
 ### Featured projects
 
@@ -36,4 +49,4 @@ I work in enterprise IT at Columbia University and build AI solutions and automa
 
 ### Connect
 
-[khaneilcampbell.com](https://khaneilcampbell.com) · [LinkedIn](https://www.linkedin.com/in/khaneil-campbell) · contact@khaneilcampbell.com
+[khaneilcampbell.com](https://khaneilcampbell.com) · [Benjaire](https://benjaire.com) · [LinkedIn](https://www.linkedin.com/in/khaneil-campbell) · contact@khaneilcampbell.com
