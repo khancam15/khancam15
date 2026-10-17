@@ -10,10 +10,10 @@ I work in enterprise IT at Columbia University and I'm the founder of [Benjaire]
 
 | Pillar | Focus | Status |
 |---|---|---|
-| **Digital Solutions** | Business automation, AI integration and workflow optimization for small professional services firms. The first example is a client intake and onboarding solution. | Business development and service validation |
+| **Digital Solutions** | Business automation, AI integration and workflow optimization for small professional services firms. First product: [**Benjaire Flow**](https://benjaire.com/digital/flow), six ready to import n8n workflows where Claude sorts each website inquiry, drafts a reply and keeps follow ups on time. | Benjaire Flow v1.0 on sale from $79 |
 | **Consumer Brands** | Consumer technology, tech accessories, lifestyle and ecommerce | Research and development |
 
-Benjaire follows the same process as the rest of my work: build lean, validate demand before expanding, and systematize operations so they can be repeated. Its website ([source](https://github.com/khancam15/benjaire.com)) is an Astro site on Cloudflare Workers, with a contact Worker protected by Turnstile, a strict Content Security Policy generated at build time, and type, link, SEO and WCAG 2.2 AA accessibility checks on every pull request.
+Benjaire follows the same process as the rest of my work: build lean, validate demand before expanding, and systematize operations so they can be repeated. Its website ([source](https://github.com/khancam15/benjaire.com)) is an Astro site on Cloudflare Workers, with a contact Worker protected by Turnstile that forwards inquiries to Benjaire Flow in n8n, Stripe checkout with automated delivery of the download, a strict Content Security Policy generated at build time, and type, link, SEO and WCAG 2.2 AA accessibility checks on every pull request.
 
 **Running a professional services firm that loses hours to manual intake, follow ups or admin?** [Start a conversation with Benjaire](https://benjaire.com/contact) or email contact@benjaire.com.
 
