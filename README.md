@@ -27,8 +27,8 @@ Benjaire follows the same process as the rest of my work: build lean, validate d
 |---|---|
 | [**Multi-Agent Commerce Pipeline**](https://github.com/khancam15/multi-agent-commerce-pipeline) | CrewAI agents on Claude take a product from brand research to a Shopify listing on a Linux VPS, with designs made through Canva's MCP server, behind credential scanning, five preflight checks and publish limits |
 | [**khaneilcampbell.com**](https://github.com/khancam15/khaneilcampbell.com) | My portfolio, built with Claude: an editorial "Atelier" design in brass and serif type, case studies with interactive architecture diagrams, one first-party script under a strict CSP and a security audit on every pull request |
-| [**SOC Automation and Detection Engineering Lab**](https://github.com/khancam15/splunk-bruteforce-detection-lab) | An SMB brute-force attack from Kali Linux on Windows 11, caught by a Splunk threshold alert (81 failed logons), with triage notes written in Python through the Splunk REST API |
-| [**AI-Powered Job Application Workflow**](https://github.com/khancam15/job-application-workflow) | A human-in-the-loop resume tailoring workflow: a verified career database, staged Claude prompts with structured output, a quality gate that flags unsupported claims and an Excel tracker, with personal data kept out of git |
+| [**Splunk Brute Force Detection Lab**](https://github.com/khancam15/ssplunk-bruteforce-detection-lab) | An SMB brute-force attack from Kali Linux on Windows 11, caught by a Splunk threshold alert (81 failed logons), with triage notes written in Python through the Splunk REST API |
+| [**Job Application Workflow**](https://github.com/khancam15/job-applications-workflow-) | A human-in-the-loop resume tailoring workflow: a verified career database, staged Claude prompts with structured output, a quality gate that flags unsupported claims and an Excel tracker, with personal data kept out of git |
 | [**Security labs**](https://khaneilcampbell.com/labs.html) | Authentication log analysis with Splunk, a phishing-to-malware response walkthrough and access control and account lifecycle workflows |
 
 ### Tools and technologies
