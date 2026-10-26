@@ -2,9 +2,11 @@
 
 **Ambitious AI. Enterprise-grade discipline.**
 
-I'm an enterprise technology professional focused on AI Solutions Engineering and automation. Over five years in IT service management and user support at Columbia University and NYC Health & Hospitals, I've learned how technical needs connect to the people and processes around them. I'm also the founder of [Benjaire](https://benjaire.com), a technology and brand development company in New York.
+I’m an enterprise technology professional focused on AI Solutions Engineering and automation. Over five years in IT service management and user support at Columbia University and NYC Health + Hospitals, I’ve learned how technical needs connect to the people and processes around them.
 
-I built an AI-assisted email workflow with n8n and Claude, and I'm developing other workflows using Python, CrewAI, APIs and MCP connectors. I focus on clear task design, careful testing, documentation and human review. I'm pursuing AI Solutions Engineering roles where I can understand customer needs, design and implement workflows and support adoption.
+That perspective informs my independent AI projects. I built an AI-assisted email workflow with n8n and Claude, and I’m developing other workflows using Python, CrewAI, APIs and MCP connectors. I focus on clear task design, careful testing, documentation and human review.
+
+My CompTIA Security+ and ITIL 4 Foundation certifications, along with a Splunk SOC detection lab based on a simulated brute-force scenario, reinforce my attention to security and reliability. I’m pursuing AI Solutions Engineering roles where I can understand customer needs, design and implement workflows and support adoption.
 
 *Fix it twice, document it. Ten times, automate it.*
 
@@ -17,7 +19,7 @@ I built an AI-assisted email workflow with n8n and Claude, and I'm developing ot
 | **Digital Solutions** | Business automation, AI integration and workflow optimization for small professional services firms. First product: [**Benjaire Flow**](https://benjaire.com/digital/flow), six ready to import n8n workflows where Claude sorts each website inquiry, drafts a reply and keeps follow ups on time. | Benjaire Flow v1.0 on sale from $79 |
 | **Consumer Brands** | Consumer technology, tech accessories, lifestyle and ecommerce | Research and development |
 
-Benjaire follows the same process as the rest of my work: build lean, validate demand before expanding and systematize operations so they can be repeated. Its website ([source](https://github.com/khancam15/benjaire.com)) is an Astro site on Cloudflare Workers, with a contact Worker protected by Turnstile that forwards inquiries to Benjaire Flow in n8n, Stripe checkout with automated delivery of the download and a strict Content Security Policy generated at build time. Every pull request runs type, link, SEO and WCAG 2.2 AA accessibility checks.
+Benjaire follows the same process as the rest of my work: build lean, validate demand before expanding and systematize operations so they can be repeated. Its website ([source](https://github.com/khaneilcampbell/benjaire.com)) is an Astro site on Cloudflare Workers, with a contact Worker protected by Turnstile that forwards inquiries to Benjaire Flow in n8n, Stripe checkout with automated delivery of the download and a strict Content Security Policy generated at build time. Every pull request runs type, link, SEO and WCAG 2.2 AA accessibility checks.
 
 **Running a professional services firm that loses hours to manual intake, follow ups or admin?** [Start a conversation with Benjaire](https://benjaire.com/contact) or email contact@benjaire.com.
 
@@ -25,9 +27,9 @@ Benjaire follows the same process as the rest of my work: build lean, validate d
 
 | Project | What it shows |
 |---|---|
-| [**Multi-Agent Commerce Pipeline**](https://github.com/khancam15/multi-agent-commerce-pipeline) | CrewAI agents on Claude take a product from brand research to a Shopify listing on a Linux VPS, with designs made through Canva's MCP server, behind credential scanning, five preflight checks and publish limits |
-| [**khaneilcampbell.com**](https://github.com/khancam15/khaneilcampbell.com) | My portfolio, built with Claude: an editorial "Atelier" design in brass and serif type, case studies with interactive architecture diagrams, one first-party script under a strict CSP and a security audit on every pull request |
-| [**SOC Automation and Detection Engineering Lab**](https://github.com/khancam15/soc-automation-splunk-bruteforce-lab) | An SMB brute-force attack from Kali Linux on Windows 11, caught by a Splunk threshold alert (81 failed logons), with triage notes written in Python through the Splunk REST API |
+| [**Multi-Agent Commerce Pipeline**](https://github.com/khaneilcampbell/multi-agent-commerce-pipeline) | CrewAI agents on Claude take a product from brand research to a Shopify listing on a Linux VPS, with designs made through Canva's MCP server, behind credential scanning, five preflight checks and publish limits |
+| [**khaneilcampbell.com**](https://github.com/khaneilcampbell/khaneilcampbell.com) | My portfolio, built with Claude: an editorial "Atelier" design in brass and serif type, case studies with interactive architecture diagrams, one first-party script under a strict CSP and a security audit on every pull request |
+| [**SOC Automation and Detection Engineering Lab**](https://github.com/khaneilcampbell/splunk-bruteforce-detection-lab) | An SMB brute-force attack from Kali Linux on Windows 11, caught by a Splunk threshold alert (81 failed logons), with triage notes written in Python through the Splunk REST API |
 | [**Security labs**](https://khaneilcampbell.com/labs.html) | Authentication log analysis with Splunk, a phishing-to-malware response walkthrough and access control and account lifecycle workflows |
 
 ### Tools and technologies
