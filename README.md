@@ -1,7 +1,5 @@
 ## Hi, I'm Khaneil Campbell
 
-**Ambitious AI. Enterprise-grade discipline.**
-
 I’m an enterprise technology professional focused on AI Solutions Engineering and automation. Over five years in IT service management and user support at Columbia University and NYC Health + Hospitals, I’ve learned how technical needs connect to the people and processes around them.
 
 That perspective informs my independent AI projects. I built an AI-assisted email workflow with n8n and Claude, and I’m developing other workflows using Python, CrewAI, APIs and MCP connectors. I focus on clear task design, careful testing, documentation and human review.
