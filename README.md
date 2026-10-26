@@ -10,18 +10,16 @@ My CompTIA Security+ and ITIL 4 Foundation certifications, along with a Splunk S
 
 *Fix it twice, document it. Ten times, automate it.*
 
-### Flagship business: Benjaire
+### Independent project: Benjaire
 
-[**Benjaire**](https://benjaire.com) is where my work in AI, automation and systems design becomes a business. Founded in New York in 2022, it is one company with two pillars:
+[**Benjaire**](https://benjaire.com) is an independent project where I put my work in AI, automation and systems design into practice, end to end. It has two tracks:
 
-| Pillar | Focus | Status |
+| Track | Focus | Status |
 |---|---|---|
-| **Digital Solutions** | Business automation, AI integration and workflow optimization for small professional services firms. First product: [**Benjaire Flow**](https://benjaire.com/digital/flow), six ready to import n8n workflows where Claude sorts each website inquiry, drafts a reply and keeps follow ups on time. | Benjaire Flow v1.0 on sale from $79 |
-| **Consumer Brands** | Consumer technology, tech accessories, lifestyle and ecommerce | Research and development |
+| **Digital Solutions** | Workflow automation and AI integration for small professional services firms. First release: [**Benjaire Flow**](https://benjaire.com/digital/flow), six ready to import n8n workflows where Claude sorts each website inquiry, drafts a reply and keeps follow ups on time. | Benjaire Flow v1.0 released |
+| **Consumer Brands** | Consumer technology, tech accessories, lifestyle and ecommerce | Research |
 
-Benjaire follows the same process as the rest of my work: build lean, validate demand before expanding and systematize operations so they can be repeated. Its website ([source](https://github.com/khaneilcampbell/benjaire.com)) is an Astro site on Cloudflare Workers, with a contact Worker protected by Turnstile that forwards inquiries to Benjaire Flow in n8n, Stripe checkout with automated delivery of the download and a strict Content Security Policy generated at build time. Every pull request runs type, link, SEO and WCAG 2.2 AA accessibility checks.
-
-**Running a professional services firm that loses hours to manual intake, follow ups or admin?** [Start a conversation with Benjaire](https://benjaire.com/contact) or email contact@benjaire.com.
+The project follows the same process as the rest of my work: build lean, validate before expanding and document everything so it can be repeated. Its website ([source](https://github.com/khaneilcampbell/benjaire.com)) is an Astro site on Cloudflare Workers, with a contact Worker protected by Turnstile that forwards inquiries to Benjaire Flow in n8n, Stripe checkout with automated delivery of the download and a strict Content Security Policy generated at build time. Every pull request runs type, link, SEO and WCAG 2.2 AA accessibility checks.
 
 ### Featured projects
 
