@@ -69,3 +69,9 @@ The project follows the same process as the rest of my work: build lean, validat
 ### Connect
 
 [khaneilcampbell.com](https://khaneilcampbell.com) · [Work](https://khaneilcampbell.com/projects.html) · [Benjaire](https://benjaire.com) · [LinkedIn](https://www.linkedin.com/in/khaneil-campbell) · contact@khaneilcampbell.com
+
+## License
+
+Original software code is licensed under [MIT](LICENSE). Personal and editorial
+content, branding, and third-party materials are not included in that grant;
+see [license scope](LICENSING.md).
