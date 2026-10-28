@@ -28,6 +28,13 @@ The project follows the same process as the rest of my work: build lean, validat
 | [**Splunk Brute Force Detection Lab**](https://github.com/khaneilcampbell/splunk-bruteforce-detection-lab) | An SMB brute-force attack from Kali Linux on Windows 11, caught by a Splunk threshold alert (81 failed logons), with triage notes written in Python through the Splunk REST API |
 | [**Security labs**](https://khaneilcampbell.com/labs.html) | Authentication log analysis with Splunk, a phishing-to-malware response walkthrough and access control and account lifecycle workflows |
 
+### Latest on GitHub
+
+<!-- This section is regenerated daily by .github/workflows/update-readme.yml. Edits between the markers are overwritten. -->
+<!-- AUTO:REPOS:START -->
+_Updating from my repositories…_
+<!-- AUTO:REPOS:END -->
+
 ### Tools and technologies
 
 | Area | Tools |

@@ -1,0 +1,57 @@
+name: Update profile README
+
+on:
+  schedule:
+    - cron: "17 6 * * *" # daily, 06:17 UTC
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - scripts/update_readme.py
+      - .github/workflows/update-readme.yml
+  # Preview on pull requests: generates from live data but never commits.
+  pull_request:
+    paths:
+      - scripts/update_readme.py
+      - tests/**
+      - .github/workflows/update-readme.yml
+
+permissions:
+  contents: write
+
+concurrency:
+  group: update-readme
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v5
+
+      - name: Run tests
+        run: python3 -m unittest discover -s tests -v
+
+      - name: Regenerate README
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: python3 scripts/update_readme.py
+
+      - name: Show generated section
+        run: |
+          section=$(sed -n '/AUTO:REPOS:START/,/AUTO:REPOS:END/p' README.md)
+          echo "$section"
+          { echo "## Generated README section"; echo; echo "$section"; } >> "$GITHUB_STEP_SUMMARY"
+
+      - name: Commit if changed
+        if: github.event_name != 'pull_request'
+        run: |
+          if git diff --quiet README.md; then
+            echo "No changes"
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add README.md
+          git commit -m "docs: refresh repository list"
+          git push
