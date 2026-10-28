@@ -20,7 +20,7 @@ permissions:
   contents: write
 
 concurrency:
-  group: update-readme
+  group: ${{ github.event_name == 'pull_request' && format('update-readme-pr-{0}', github.ref) || 'update-readme-writer' }}
   cancel-in-progress: false
 
 jobs:
