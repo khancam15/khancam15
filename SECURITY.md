@@ -1,6 +1,6 @@
 # Security policy
 
-This repository holds my GitHub profile README. It contains no code, dependencies or deployed services.
+This repository holds my GitHub profile README and a small standard-library Python script, run by GitHub Actions, that refreshes the README from my public repositories. It has no third-party dependencies or deployed services.
 
 ## Reporting a vulnerability
 
