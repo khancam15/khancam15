@@ -9,6 +9,12 @@ on:
     paths:
       - scripts/update_readme.py
       - .github/workflows/update-readme.yml
+  # Preview on pull requests: generates from live data but never commits.
+  pull_request:
+    paths:
+      - scripts/update_readme.py
+      - tests/**
+      - .github/workflows/update-readme.yml
 
 permissions:
   contents: write
@@ -31,7 +37,14 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: python3 scripts/update_readme.py
 
+      - name: Show generated section
+        run: |
+          section=$(sed -n '/AUTO:REPOS:START/,/AUTO:REPOS:END/p' README.md)
+          echo "$section"
+          { echo "## Generated README section"; echo; echo "$section"; } >> "$GITHUB_STEP_SUMMARY"
+
       - name: Commit if changed
+        if: github.event_name != 'pull_request'
         run: |
           if git diff --quiet README.md; then
             echo "No changes"
