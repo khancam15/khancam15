@@ -36,11 +36,11 @@ The project follows the same process as the rest of my work: build lean, validat
 
 | Repository | About | Language | Updated |
 |---|---|---|---|
-| [**ai-ops-atlas**](https://github.com/khaneilcampbell/ai-ops-atlas) ★1 | — | TypeScript | 2026-10-28 |
-| [**splunk-bruteforce-detection-lab**](https://github.com/khaneilcampbell/splunk-bruteforce-detection-lab) ★1 | Security operations lab simulating SMB brute-force attacks, with Splunk detection engineering and automated case triage in Python `blue-team` `cybersecurity` `detection-engineering` `python` | Python | 2026-10-28 |
-| [**multi-agent-commerce-pipeline**](https://github.com/khaneilcampbell/multi-agent-commerce-pipeline) ★2 | Multi-agent product pipeline: CrewAI agents on Claude, Canva MCP, and Shopify, deployed on a Linux VPS `ai-agents` `anthropic` `crewai` `mcp` | Python | 2026-10-28 |
-| [**service-desk-dashboard**](https://github.com/khaneilcampbell/service-desk-dashboard) | — | — | 2026-10-28 |
 | [**project-intelligence-hub**](https://github.com/khaneilcampbell/project-intelligence-hub) | — | Python | 2026-10-28 |
+| [**ai-ops-atlas**](https://github.com/khaneilcampbell/ai-ops-atlas) ★1 | — | TypeScript | 2026-10-28 |
+| [**multi-agent-commerce-pipeline**](https://github.com/khaneilcampbell/multi-agent-commerce-pipeline) ★2 | Multi-agent product pipeline: CrewAI agents on Claude, Canva MCP, and Shopify, deployed on a Linux VPS `ai-agents` `anthropic` `crewai` `mcp` | Python | 2026-10-28 |
+| [**benjaire.com**](https://github.com/khaneilcampbell/benjaire.com) | Independent project: static website for Benjaire, a New York company, deployed on GitHub Pages and Cloudflare `accessibility` `cloudflare-pages` `github-pages` `html-css` | Astro | 2026-10-28 |
+| [**service-desk-dashboard**](https://github.com/khaneilcampbell/service-desk-dashboard) | — | Python | 2026-10-28 |
 | [**khaneilcampbell.com**](https://github.com/khaneilcampbell/khaneilcampbell.com) ★1 | AI-assisted portfolio site on GitHub Pages with Cloudflare DNS and automated security checks `accessibility` `cloudflare` `github-actions` `github-pages` | HTML | 2026-10-28 |
 <!-- AUTO:REPOS:END -->
 
