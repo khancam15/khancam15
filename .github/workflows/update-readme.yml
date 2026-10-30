@@ -16,17 +16,46 @@ on:
       - tests/**
       - .github/workflows/update-readme.yml
 
+# Read-only by default. Only the update job, which never runs on pull
+# requests, gets write access to commit the refreshed README.
 permissions:
-  contents: write
+  contents: read
 
 concurrency:
   group: ${{ github.event_name == 'pull_request' && format('update-readme-pr-{0}', github.ref) || 'update-readme-writer' }}
   cancel-in-progress: false
 
 jobs:
-  update:
+  # Pull requests: generate from live data and show it, never commit.
+  preview:
+    if: github.event_name == 'pull_request'
     runs-on: ubuntu-latest
     timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v5
+        with:
+          persist-credentials: false
+
+      - name: Run tests
+        run: python3 -m unittest discover -s tests -v
+
+      - name: Regenerate README
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: python3 scripts/update_readme.py
+
+      - name: Show generated section
+        run: |
+          section=$(sed -n '/AUTO:REPOS:START/,/AUTO:REPOS:END/p' README.md)
+          echo "$section"
+          { echo "## Generated README section"; echo; echo "$section"; } >> "$GITHUB_STEP_SUMMARY"
+
+  update:
+    if: github.event_name != 'pull_request'
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    permissions:
+      contents: write
     steps:
       - uses: actions/checkout@v5
 
@@ -45,7 +74,6 @@ jobs:
           { echo "## Generated README section"; echo; echo "$section"; } >> "$GITHUB_STEP_SUMMARY"
 
       - name: Commit if changed
-        if: github.event_name != 'pull_request'
         run: |
           if git diff --quiet README.md; then
             echo "No changes"
